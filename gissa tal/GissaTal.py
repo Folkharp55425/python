@@ -8,17 +8,15 @@ print("gissa ett tal mellan 1 till 10, du får 3 försök på dig\n")
 slumptal = random.randint(1, 10)
 
 i = 0
-t = ("slumptal")
-r = ("gissatal")
 hittat = False
 
 while i < 3:
     gissatal =input("mata in tal: ")
 
-    if t == r:
+    if slumptal == int(gissatal):
         hittat = True
         print("\n Rätt svar! \n")
-        break
+        break 
     i += 1
 
     if hittat:
