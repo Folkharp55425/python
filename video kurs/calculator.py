@@ -4,7 +4,7 @@
 # z = round(x + y)
 # print(f"{z:,}")
 
-#
+# miniräknare med endast /
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
